@@ -1,0 +1,45 @@
+.advertising{
+	margin: 0 auto;
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background-image: url(img/background.jpg);
+}
+.box{
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 321px;
+	height: 327px;
+}
+.box p{
+	margin-top: 13px;
+	font-family: 'Roboto Slab';
+	padding-left: 16px;
+	font-size: 42px;
+	line-height: 1;
+	font-weight: 800;
+}
+.bike{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 381px;
+	height: 260px;
+	background-image: url(img/bike-graphic.png);
+}
+.band{
+	width: 100%;
+	height: 9px;
+	background-color: #f86914;
+}
+.bottom{
+	position: absolute;
+	bottom: 0px;
+	height: 105px;
+	width: 100%;
+	background-color: #5f5d5c;
+}
+.bottom img{
+	vertical-align: middle;
+	margin-top: 30px;
+	padding-left: 21px;
+}

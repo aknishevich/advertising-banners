@@ -1,0 +1,35 @@
+p{
+	font-family: 'Roboto Slab';
+	text-transform: uppercase;
+	color: #fff;
+}
+.adv{
+	position: relative;
+	width: 600px;
+	height: 269px;
+	background-image: url(images/img.png);
+}
+.lines{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background-image: url(images/borders.png);
+}
+.dark-overly{
+	z-index: 10;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.adv p{
+	position: relative;
+	bottom: -75px;
+	line-height: 1.2;
+	font-weight: bold;
+	padding-right: 38px;
+	float: right;
+	font-size: 35px;
+}

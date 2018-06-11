@@ -1,0 +1,39 @@
+p{
+	font-family: 'Raleway';
+	color: #221f1f;
+}
+.adv{
+	position: relative;
+	width: 600px;
+	height: 600px;
+}
+.driver{
+	position: absolute;
+	z-index: 1000;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 1.1;
+	letter-spacing: -1px;
+	left: 31px;
+	top: 7px;
+}
+.photo img{
+	position: absolute;
+	top: 56px;
+	right: 0px;
+}
+.bg{
+	position: absolute;
+	z-index: 10;
+	width: 600px;
+	height: 600px;
+	background-image: url(images/graphic-overlay.png);
+}
+.sally{
+	position: absolute;
+	z-index: 100;
+	right: 36px;
+	bottom: 13px;
+	font-size: 18px;
+	font-weight: 600;
+}

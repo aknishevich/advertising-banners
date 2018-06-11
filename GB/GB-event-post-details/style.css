@@ -1,0 +1,50 @@
+p{
+	font-family: 'Raleway';
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+	font-size: 40px;
+	color: #221f1f;
+	letter-spacing: -1px;
+	line-height: 1;
+	top: 40px;
+	left: 70px;
+}
+.adv{
+	position: relative;
+	width: 600px;
+	height: 600px;
+
+}
+.text{
+	position: absolute;
+	top: 86px;
+	left: 70px;
+}
+.button{
+	position: absolute;
+	top: 185px;
+	left: 176px;
+}
+.block_top{
+	position: absolute;
+	top: 0px;
+	background-image: url(images/block-top.jpg);
+	width: 600px;
+	height: 300px;
+}
+.block_bottom{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	bottom: 0px;
+	background-image: url(images/rugby.jpg);
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	width: 600px;
+	height: 100px;
+	background-image: url(images/bottom-bar.png);
+}
